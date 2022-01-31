@@ -22,7 +22,7 @@ async function resetCounter(name) {
 
 async function incrementCounter(name) {
     let counter = await findOrCreateCounter(name)
-    counter.value++
+    counter.value+=2
     return counter
 }
 
