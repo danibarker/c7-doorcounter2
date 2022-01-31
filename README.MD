@@ -1,4 +1,5 @@
 # C7 Door Counter
+[![Node.js CI](https://github.com/danibarker/c7-doorcounter2/actions/workflows/node.js.yml/badge.svg)](https://github.com/danibarker/c7-doorcounter2/actions/workflows/node.js.yml)
 
 An actual door counter app (like we built on day 1)
 
@@ -26,3 +27,5 @@ Your server will now be running on port 5000.  It will serve the latest build of
     npm start
 
 Note that there is a proxy defined in the client/package.json to redirect API calls to your server, so you MUST be running your server when working in development mode.
+
+
